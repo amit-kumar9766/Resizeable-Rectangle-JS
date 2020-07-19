@@ -1,0 +1,52 @@
+ .body{
+    display:flex;
+    
+} 
+
+.rectangle-full{
+    left:700px;
+    top:300px;
+    height:100px;
+    width:100px;
+    position:absolute;
+    background:lightseagreen;
+    
+}
+
+.rectangle {
+    position:absolute;
+    border-radius:5px ;
+    width: 10px;
+    height:10px;
+    z-index:2;
+    border:2px solid black;
+}
+
+ .rectangle.nw{
+  top:-1px;
+  left:-1px;
+  cursor:nw-resize;
+}
+
+.rectangle.ne {
+  top:-1px;
+  right:1px;
+  cursor:ne-resize;   
+}
+
+.rectangle.sw{
+  bottom:-1px;
+  left:-1px;
+  cursor:sw-resize;
+}
+
+.rectangle.se{
+bottom:-1px;
+right:-1px;
+cursor:se-resize;
+
+}
+
+
+
+
